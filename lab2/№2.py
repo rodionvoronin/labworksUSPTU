@@ -12,9 +12,9 @@ b = np.fromfunction(func_b, (34, 10))
     #x = a * b[i]
 #print(x)
 
-a1 = [[1, 2, 4],
+a1 = np.array([[1, 2, 4],
       [5, 1, 2],
-      [3, -1, 1]]
-b1 = [31, 29, 10]
+      [3, -1, 1]])
+b1 = np.array([31, 29, 10])
 x = np.linalg.solve(a1, b1)
 print(x)
